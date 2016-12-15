@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{551A25D3-565D-4CFB-8A81-60436B1F8AE7}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>withCircle</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assigment2\Assigment2\Arrow.cs" />
+    <Compile Include="Assigment2\Assigment2\Check.cs" />
+    <Compile Include="Assigment2\Assigment2\Game1.cs" />
+    <Compile Include="Assigment2\Assigment2\Pits.cs" />
+    <Compile Include="Assigment2\Assigment2\Position.cs" />
+    <Compile Include="Assigment2\Assigment2\Program.cs" />
+    <Compile Include="Assigment2\Assigment2\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assigment2\Assigment2\Rooms.cs" />
+    <Compile Include="Assigment2\Assigment2\Superbats.cs" />
+    <Compile Include="Assigment2\Assigment2\Wumpus.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assigment2\Assigment2Content\arrow.png" />
+    <Content Include="Assigment2\Assigment2Content\background.png" />
+    <Content Include="Assigment2\Assigment2Content\bats.png" />
+    <Content Include="Assigment2\Assigment2Content\cursor.png" />
+    <Content Include="Assigment2\Assigment2Content\map.png" />
+    <Content Include="Assigment2\Assigment2Content\obj\x86\Debug\Assigment2Content.contentproj.FileListAbsolute.txt" />
+    <Content Include="Assigment2\Assigment2Content\pit.png" />
+    <Content Include="Assigment2\Assigment2Content\square.png" />
+    <Content Include="Assigment2\Assigment2Content\wumpus.png" />
+    <Content Include="Assigment2\Assigment2Content\zelda.png" />
+    <Content Include="Assigment2\Assigment2\Assigment2.csproj" />
+    <Content Include="Assigment2\Assigment2\Assigment2.csproj.user" />
+    <Content Include="Assigment2\Assigment2\bin\x86\Debug\app.publish\Assigment2.exe" />
+    <Content Include="Assigment2\Assigment2\bin\x86\Debug\Assigment2.exe" />
+    <Content Include="Assigment2\Assigment2\bin\x86\Debug\Assigment2.pdb" />
+    <Content Include="Assigment2\Assigment2\bin\x86\Debug\Microsoft.Xna.Framework.dll" />
+    <Content Include="Assigment2\Assigment2\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll" />
+    <Content Include="Assigment2\Assigment2\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml" />
+    <Content Include="Assigment2\Assigment2\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll" />
+    <Content Include="Assigment2\Assigment2\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml" />
+    <Content Include="Assigment2\Assigment2\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll" />
+    <Content Include="Assigment2\Assigment2\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml" />
+    <Content Include="Assigment2\Assigment2\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll" />
+    <Content Include="Assigment2\Assigment2\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml" />
+    <Content Include="Assigment2\Assigment2\bin\x86\Debug\Microsoft.Xna.Framework.xml" />
+    <Content Include="Assigment2\Assigment2\Game.ico" />
+    <Content Include="Assigment2\Assigment2\GameThumbnail.png" />
+    <Content Include="Assigment2\Assigment2\obj\x86\Debug\Assigment2.csproj.FileListAbsolute.txt" />
+    <Content Include="Assigment2\Assigment2\obj\x86\Debug\Assigment2.exe" />
+    <Content Include="Assigment2\Assigment2\obj\x86\Debug\Assigment2.pdb" />
+    <Content Include="Assigment2\Assigment2\obj\x86\Debug\cachefile-{5DBC41D9-74BA-472D-A9D8-19618748479B}-targetpath.txt" />
+    <Content Include="Assigment2\Assigment2\obj\x86\Debug\ContentPipeline-{5DBC41D9-74BA-472D-A9D8-19618748479B}.xml" />
+    <Content Include="Assigment2\Assigment2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assigment2\Assigment2Content\Assigment2Content.contentproj" />
+    <None Include="Assigment2\Assigment2Content\basic.spritefont" />
+    <None Include="Assigment2\Assigment2Content\IMPACT.spritefont" />
+    <None Include="Assigment2\Assigment2Content\obj\x86\Debug\Assigment2Content.contentprojResolveAssemblyReference.cache" />
+    <None Include="Assigment2\Assigment2Content\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Assigment2\Assigment2\Assigment2.csproj.Debug.cachefile" />
+    <None Include="Assigment2\Assigment2\Assigment2_TemporaryKey.pfx" />
+    <None Include="Assigment2\Assigment2\bin\x86\Debug\Assigment2.application" />
+    <None Include="Assigment2\Assigment2\bin\x86\Debug\Assigment2.exe.manifest" />
+    <None Include="Assigment2\Assigment2\bin\x86\Debug\Content\arrow.xnb" />
+    <None Include="Assigment2\Assigment2\bin\x86\Debug\Content\background.xnb" />
+    <None Include="Assigment2\Assigment2\bin\x86\Debug\Content\basic.xnb" />
+    <None Include="Assigment2\Assigment2\bin\x86\Debug\Content\bats.xnb" />
+    <None Include="Assigment2\Assigment2\bin\x86\Debug\Content\cursor.xnb" />
+    <None Include="Assigment2\Assigment2\bin\x86\Debug\Content\IMPACT.xnb" />
+    <None Include="Assigment2\Assigment2\bin\x86\Debug\Content\map.xnb" />
+    <None Include="Assigment2\Assigment2\bin\x86\Debug\Content\pit.xnb" />
+    <None Include="Assigment2\Assigment2\bin\x86\Debug\Content\square.xnb" />
+    <None Include="Assigment2\Assigment2\bin\x86\Debug\Content\wumpus.xnb" />
+    <None Include="Assigment2\Assigment2\bin\x86\Debug\Content\zelda.xnb" />
+    <None Include="Assigment2\Assigment2\obj\x86\Debug\Assigment2.application" />
+    <None Include="Assigment2\Assigment2\obj\x86\Debug\Assigment2.csprojResolveAssemblyReference.cache" />
+    <None Include="Assigment2\Assigment2\obj\x86\Debug\Assigment2.exe.manifest" />
+    <None Include="Assigment2\Assigment2\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\" />
+    <Folder Include="Assigment2\Assigment2Content\bin\x86\Debug\" />
+    <Folder Include="Assigment2\Assigment2Content\bin\x86\Release\" />
+    <Folder Include="Assigment2\Assigment2Content\obj\x86\Debug\TempPE\" />
+    <Folder Include="Assigment2\Assigment2\bin\x86\Release\" />
+    <Folder Include="Assigment2\Assigment2\obj\x86\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
